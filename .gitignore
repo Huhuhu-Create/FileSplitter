@@ -1,0 +1,25 @@
+# ---- 构建产物 ----
+build/
+dist/*.exe
+*.o
+*.obj
+*.exe
+*.pdb
+*.ilk
+*.log
+
+# ---- 测试临时目录 ----
+_test/
+
+# ---- 编辑器 / 系统 ----
+.vscode/
+.idea/
+*.swp
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# ---- 运行期生成的分卷与合并脚本（避免误提交测试数据） ----
+*.zip.0[0-9][0-9]
+merge.bat
+merge.ps1
